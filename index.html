@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-div">
+        <span class="title"
+          >Spli <br />
+          tter</span>
+        
+      </div>
+      <div class="main-content">
+        <div class="left-content">
+          <div class="left-up">
+            <div class="bill">
+              <p>Bill</p>
+            </div>
+            <div class="input">
+              <p class="warning"></p>
+              <input class="text" type="text" />
+            </div>
+          </div>
+          <div class="middle">
+           
+            <div class="middle-title">
+              <p>Select Tip %</p>
+            </div>
+            <div class="middle-content">
+              <div class="five">
+                <span> 5 %</span>
+              </div>
+              <div class="five">
+                <span> 10 %</span>
+              </div>
+              <div class="five">
+                <span> 15 %</span>
+              </div>
+              <div class="five">
+                <span> 25 %</span>
+              </div>
+              <div class="five">
+                <span> 50 %</span>
+              </div>
+              <div class="five custom">
+                <span > 60 % </span>
+              </div>
+            </div>
+            
+            
+          </div>
+          
+          <div class="bottom">
+            <div class="bottom-title">
+              <p>Number of people</p>
+            </div>
+            <div class="input">
+              <p class="warning warn"></p>
+              <input id="text" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="right-content">
+          <div class="top">
+            <p class="tip-amount">
+              Tip amount <br />
+              <span>/ person</span>
+            </p>
+            <p class="tip-value">$ 0. 00</p>
+          </div>
+          <div class="bot">
+            <p class="total-amount">
+              Total <br />
+              <span>/ person</span>
+            </p>
+            <p class="total-value">$ 0. 00</p>
+          </div>
+          <div class="button">
+            <button class="reset">Reset</button>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
